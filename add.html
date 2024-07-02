@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h4>Enter First Number: <input type="text" class="Enter"></h4>
+        <h4>Enter Second Number: <input type="text" class="Enter1"></h4>
+        <h4>Solution:  <input type="text" id="solution"></h4>
+        <div id="results"></div>
+    </div>
+    <script>
+        const solu= document.querySelector('#solution')
+        document.querySelector('.box').addEventListener("enter",function(e){
+            e.preventDefault()
+            let check= (document.querySelector('.Enter').value)
+            let check1= (document.querySelector('.Enter1').value)
+            if(check=== isNaN || check1===isNaN){
+                results.innerHTML=`Your Entered value is ${check}. Please enter a valid number.`
+            }
+            else{
+
+            }
+            let calculate = function(a,b){
+                switch(a,b){
+                    case 1:
+
+                }
+            } 
+        })
+    </script>
+</body>
+</html>

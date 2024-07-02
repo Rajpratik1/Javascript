@@ -4,6 +4,7 @@ const repoCount =50
 // cosnsole.log(name+ repoCount + "Value") This is old method to concate
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
+console.log(typeof(name));
 const gameName = new String('hitesh-hc-name')
 console.log(gameName[0])
 console.log(gameName.indexOf('t'))
@@ -22,4 +23,7 @@ console.log(gameName.split('-'))
 const number =5452524525252n;
 console.log(typeof number)
 console.log(number.length)
-console.log("3" === 3)
+console.log("3"=== 3)
+
+const num = "3";
+console.log(typeof(num));

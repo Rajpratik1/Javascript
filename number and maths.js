@@ -5,12 +5,12 @@ const balance = new Number(100)
 console.log(balance)
 
 console.log(balance.toString().length)
-console.log(balance.toFixed(2))
+console.log(balance.toFixed(5))
 console.log(typeof(balance))
 
 const othernumber = 23.5666456787;
 console.log(typeof(othernumber))
-console.log(othernumber.toPrecision(2))
+console.log(othernumber.toPrecision(3))
 
 const num= 1000000000
 console.log(num.toLocaleString())
@@ -30,5 +30,4 @@ console.log(Math.floor(Math.random()*10)+1);
 
 const min =10;
 const max =20;
-console.log(Math.floor(Math.random()*(max-min+1))+min
-)
+console.log(Math.floor(Math.random()*(max-min+1))+min)

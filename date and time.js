@@ -20,7 +20,11 @@ console.log(newDate);
 console.log(newDate.getMonth()+1);
 console.log(newDate.getDay()); 
 
-newDate.toLocaleString('default',{
+const now=newDate.toLocaleString('default',{
     weekday:"long",
     timeZone:'Asia/Kolkata'    
-})
+});
+
+console.log(now)
+console.log(now.weekday)
+console.log(now.timeZone)
