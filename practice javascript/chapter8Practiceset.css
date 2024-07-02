@@ -1,0 +1,16 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.bulb{
+    height: 341px;
+    width: 341px;
+    background: rgb(243, 243, 241);
+}
+
+.bulb-container{
+    height: 341px;
+    width: 341px;
+    background: yellow;
+}
