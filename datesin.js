@@ -1,0 +1,17 @@
+// Date
+// let myDate =new Date()
+// console.log(myDate.toString())
+// console.log(myDate.toISOString())
+// console.log(myDate.toLocaleTimeString())
+// console.log(myDate.toLocaleString())
+// console.log( typeof myDate)
+// let myCreteDate = new Date(2023,0,23)
+// let myCreteDate = new Date(2023,0,23,5,3)
+let myCreteDate = new Date("2023-01-23")
+console.log(myCreteDate.getTime())
+// let time = Date.now()
+// console.log(time)
+// console.log(myCreteDate.getTime())
+let myTimeStamp=Date.now()
+console.log(myTimeStamp)
+console.log(`${newDate.getDay()}and the time is `);
